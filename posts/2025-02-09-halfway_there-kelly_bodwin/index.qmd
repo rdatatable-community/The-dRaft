@@ -1,0 +1,9 @@
+---
+title: "On the homestretch"
+author: "Kelly Bodwin"
+date: "2025-12-01"
+categories: [updates, grant]
+image: "aoc2.png"
+draft: true
+---
+

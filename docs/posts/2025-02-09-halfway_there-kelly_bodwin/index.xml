@@ -6,13 +6,13 @@
       version="2.0">
 <channel>
 <title>Blog</title>
-<link>https://rdatatable-community.github.io/The-Raft/posts/2024-07-31-seal_of_approval_announcement-community_team/</link>
-<atom:link href="https://rdatatable-community.github.io/The-Raft/posts/2024-07-31-seal_of_approval_announcement-community_team/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://rdatatable-community.github.io/The-Raft/posts/2025-02-09-halfway_there-kelly_bodwin/</link>
+<atom:link href="https://rdatatable-community.github.io/The-Raft/posts/2025-02-09-halfway_there-kelly_bodwin/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://rdatatable-community.github.io/The-Raft/seal_of_approval.png</url>
+<url>https://rdatatable-community.github.io/The-Raft/aoc2.png</url>
 <title>Blog</title>
-<link>https://rdatatable-community.github.io/The-Raft/posts/2024-07-31-seal_of_approval_announcement-community_team/</link>
+<link>https://rdatatable-community.github.io/The-Raft/posts/2025-02-09-halfway_there-kelly_bodwin/</link>
 </image>
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Mon, 13 Jan 2025 08:00:00 GMT</lastBuildDate>
@@ -15458,6 +15458,956 @@ No matching items
   <media:content url="https://rdatatable-community.github.io/The-Raft/posts/2024-08-01-seal_of_approval-tidyfast/hex_approved.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
+  <title>Announcement: The ‘Seal of Approval’</title>
+  <dc:creator>Kelly Bodwin</dc:creator>
+  <link>https://rdatatable-community.github.io/The-Raft/posts/2024-07-31-seal_of_approval_announcement-community_team/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The Community Team, alongside a group of regular <code>data.table</code> contributors, is very pleased to announce a new <strong>Seal of Approval</strong> program!</p>
+<p>Our goal is to collect packages that significantly support, extend, or rely on <code>data.table</code>. We identify four broad categories of “sister” packages:</p>
+<ul>
+<li><p><strong>Extension packages</strong>: These add to the internal functionality of <code>data.table</code> objects or functions.</p></li>
+<li><p><strong>Application packages:</strong> These use <code>data.table</code>, often “under the hood” to efficiently accomplish a particular task or analysis.</p></li>
+<li><p><strong>Bridge packages:</strong> These translate <code>data.table</code> syntax to different syntax, or provides helper functions for transitioning between <code>data.table</code> and another object type.</p></li>
+<li><p><strong>Partner packages:</strong> These are not necessarily directly connected to <code>data.table</code>, but they consciously and deliberately are designed to follow the <a href="https://github.com/Rdatatable/data.table/blob/master/GOVERNANCE.md">core philosophies of <code>data.table</code></a>.</p></li>
+</ul>
+<p>Approved packages may be found <a href="https://github.com/Rdatatable/data.table/blob/master/Seal_of_Approval.md">on the <code>data.table</code> GitHub</a>; and will also appear on this blog.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://rdatatable-community.github.io/The-Raft/posts/2024-07-31-seal_of_approval_announcement-community_team/seal_of_approval_2.png" class="img-fluid figure-img"></p>
+<figcaption>This AI-generated seal definitely approves.</figcaption>
+</figure>
+</div>
+<p>To submit a package for the Seal, please create a Pull Request on <a href="https://github.com/rdatatable-community/The-Raft">the Raft GitHub</a>, making sure to follow all instructions carefully in the PR template.</p>
+<p><em>(You need not be the author or maintainer of a package to submit it for approval, but you must notify the current maintainer if you do so.)</em></p>
+<p>Oh, and if your package is approved - shoot us an email at <a href="mailto:rdatatable@gmail.com">rdatatable@gmail.com</a> and we’ll send you a special, limited-edition Seal of Approval sticker!</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="developer,guest post,performance" data-listing-date-sort="1736755200000" data-listing-file-modified-sort="1739058992142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="39" data-listing-word-count-sort="7775">
+<div class="thumbnail">
+<p><a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external"></a></p><a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2025-01-13-non-api-use/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external">Use of non-API entry points in <code>data.table</code></a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
+developer
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('guest post'); return false;">
+guest post
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('performance'); return false;">
+performance
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2025-01-13-non-api-use/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external">
+<div class="listing-date">
+Jan 13, 2025
+</div>
+<div class="listing-author">
+Ivan Krylov
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="tutorials,community" data-listing-date-sort="1733558400000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="326">
+<div class="thumbnail">
+<p><a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external"></a></p><a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-12-07-advent_of_code-kelly_bodwin/aoc2.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external">Advent of Code with <code>data.table</code>: Week One</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
+tutorials
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
+community
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-12-07-advent_of_code-kelly_bodwin/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external">
+<div class="listing-date">
+Dec 7, 2024
+</div>
+<div class="listing-author">
+Kelly Bodwin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="tips,tutorials,developer,benchmarks" data-listing-date-sort="1729148400000" data-listing-file-modified-sort="1739058992142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4191">
+<div class="thumbnail">
+<p><a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-10-17-duckdb_polars_reshape-toby_hocking/duckdb.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external">Comparing <code>data.table</code> reshape to <code>duckdb</code> and <code>polars</code></a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tips'); return false;">
+tips
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
+tutorials
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
+developer
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('benchmarks'); return false;">
+benchmarks
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external">
+<div class="listing-date">
+Oct 17, 2024
+</div>
+<div class="listing-author">
+Toby Dylan Hocking
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="performance,testing,developer" data-listing-date-sort="1728543600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2217">
+<div class="thumbnail">
+<p><a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external"></a></p><a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-10-10-Performance-Doris_Amoakohene/atime.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external">Visualizing performance regression of <code>data.table</code> with <code>atime</code></a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('performance'); return false;">
+performance
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('testing'); return false;">
+testing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
+developer
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-10-10-Performance-Doris_Amoakohene/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external">
+<div class="listing-date">
+Oct 10, 2024
+</div>
+<div class="listing-author">
+Doris Afriyie Amoakohene
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="seal of approval,application package" data-listing-date-sort="1727766000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="381">
+<div class="thumbnail">
+<p><a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external"></a></p><a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-10-01-seal_of_approval-mlr3/hex_approved.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external">Seal of Approval: mlr3</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
+seal of approval
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('application package'); return false;">
+application package
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-10-01-seal_of_approval-mlr3/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2024
+</div>
+<div class="listing-author">
+Maximilian Mücke
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="seal of approval,partner package" data-listing-date-sort="1726902000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="981">
+<div class="thumbnail">
+<p><a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external"></a></p><a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-09-21-seal_of_approval-collapse/hex_approved.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external">Seal of Approval: collapse</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
+seal of approval
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('partner package'); return false;">
+partner package
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-09-21-seal_of_approval-collapse/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external">
+<div class="listing-date">
+Sep 21, 2024
+</div>
+<div class="listing-author">
+Sebastian Krantz
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="announcements,grant,translation" data-listing-date-sort="1724137200000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
+<div class="thumbnail">
+<p><a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external"></a></p><a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-08-20-translation_projects-community_team/languages.jpeg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external">Newly awarded translation projects</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
+announcements
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
+grant
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('translation'); return false;">
+translation
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-08-20-translation_projects-community_team/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external">
+<div class="listing-date">
+Aug 20, 2024
+</div>
+<div class="listing-author">
+Toby Dylan Hocking
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="seal of approval,bridge package" data-listing-date-sort="1722495600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="thumbnail">
+<p><a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external"></a></p><a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-08-01-seal_of_approval-dtplyr/hex_approved.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external">Seal of Approval: dtplyr</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
+seal of approval
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bridge package'); return false;">
+bridge package
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-08-01-seal_of_approval-dtplyr/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external">
+<div class="listing-date">
+Aug 1, 2024
+</div>
+<div class="listing-author">
+Kelly Bodwin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="seal of approval,extension package" data-listing-date-sort="1722495600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="698">
+<div class="thumbnail">
+<p><a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external"></a></p><a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-08-01-seal_of_approval-nc/hex_approved.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external">Seal of Approval: nc</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
+seal of approval
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('extension package'); return false;">
+extension package
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-08-01-seal_of_approval-nc/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external">
+<div class="listing-date">
+Aug 1, 2024
+</div>
+<div class="listing-author">
+Toby Dylan Hocking
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="seal of approval,bridge package" data-listing-date-sort="1722495600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
+<div class="thumbnail">
+<p><a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external"></a></p><a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-08-01-seal_of_approval-tidyfast/hex_approved.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external">Seal of Approval: tidyfast</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
+seal of approval
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bridge package'); return false;">
+bridge package
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-08-01-seal_of_approval-tidyfast/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external">
+<div class="listing-date">
+Aug 1, 2024
+</div>
+<div class="listing-author">
+Tyson S. Barrett
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="announcements,grant,ambassadors,travel" data-listing-date-sort="1718175600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
+<div class="thumbnail">
+<p><a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external"></a></p><a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-06-09-ambassador_corrales-community_team/Paola_Corrales.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external">Announcement: Paola Corrales, data.table Ambassador</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
+announcements
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
+grant
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ambassadors'); return false;">
+ambassadors
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('travel'); return false;">
+travel
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-06-09-ambassador_corrales-community_team/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external">
+<div class="listing-date">
+Jun 12, 2024
+</div>
+<div class="listing-author">
+Community Team
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="opinion" data-listing-date-sort="1717484400000" data-listing-file-modified-sort="1739058992141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1405">
+<div class="thumbnail">
+<p><a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external"></a></p><a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-05-20-opinion-kelly_bodwin/paths.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external">Two Roads Diverged</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('opinion'); return false;">
+opinion
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-05-20-opinion-kelly_bodwin/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external">
+<div class="listing-date">
+Jun 4, 2024
+</div>
+<div class="listing-author">
+Kelly Bodwin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="grant,testing,developer" data-listing-date-sort="1710057600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1527">
+<div class="thumbnail">
+<p><a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-03-10-testing_plan-toby_hocking/code_testing.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external">Testing infrastructure for data.table</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
+grant
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('testing'); return false;">
+testing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
+developer
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-03-10-testing_plan-toby_hocking/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external">
+<div class="listing-date">
+Mar 10, 2024
+</div>
+<div class="listing-author">
+Toby Hocking
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="community,grant" data-listing-date-sort="1709712000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3396">
+<div class="thumbnail">
+<p><a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external"></a></p><a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-03-06-interviews-anirban_chetia/index.jpeg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external">Community interviews about data.table</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
+community
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
+grant
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-03-06-interviews-anirban_chetia/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external">
+<div class="listing-date">
+Mar 6, 2024
+</div>
+<div class="listing-author">
+Anirban Chetia
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="community,guest post,governance" data-listing-date-sort="1708848000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1190">
+<div class="thumbnail">
+<p><a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external"></a></p><a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-02-25-survey_2023-aljaz_sluga/usage_frequency.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external">Results of the 2023 survey</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
+community
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('guest post'); return false;">
+guest post
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('governance'); return false;">
+governance
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-02-25-survey_2023-aljaz_sluga/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external">
+<div class="listing-date">
+Feb 25, 2024
+</div>
+<div class="listing-author">
+Aljaž Sluga
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="tips,tutorials,developer" data-listing-date-sort="1708243200000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="918">
+<div class="thumbnail">
+<p><a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-02-18-dt_particularities-toby_hocking/copy_on_modify.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external">Column assignment and reference semantics in data.table</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tips'); return false;">
+tips
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
+tutorials
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
+developer
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-02-18-dt_particularities-toby_hocking/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external">
+<div class="listing-date">
+Feb 18, 2024
+</div>
+<div class="listing-author">
+Toby Hocking
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="tips,tutorials,documentation" data-listing-date-sort="1707120000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="914">
+<div class="thumbnail">
+<p><a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external"></a></p><a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-02-05-tips_tricks_1-tyson_barrett/brackets.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external">The Benefits of <code>data.table</code> Syntax</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tips'); return false;">
+tips
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
+tutorials
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('documentation'); return false;">
+documentation
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external">
+<div class="listing-date">
+Feb 5, 2024
+</div>
+<div class="listing-author">
+Tyson Barrett
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="governance,releases" data-listing-date-sort="1706601600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="696">
+<div class="thumbnail">
+<p><a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-01-30-new_governance_new_release-toby_hocking/New-Release.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external">New governance, release with new features</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('governance'); return false;">
+governance
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('releases'); return false;">
+releases
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-01-30-new_governance_new_release-toby_hocking/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external">
+<div class="listing-date">
+Jan 30, 2024
+</div>
+<div class="listing-author">
+Toby Dylan Hocking
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="tips,tutorials,documentation,guest post" data-listing-date-sort="1706428800000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="988">
+<div class="thumbnail">
+<p><a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external"></a></p><a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-01-28-piping_data_tables-elio_campitelli/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external">Piping data.tables</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tips'); return false;">
+tips
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
+tutorials
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('documentation'); return false;">
+documentation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('guest post'); return false;">
+guest post
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-01-28-piping_data_tables-elio_campitelli/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external">
+<div class="listing-date">
+Jan 28, 2024
+</div>
+<div class="listing-author">
+Elio Campitelli
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="announcements,grant,ambassadors" data-listing-date-sort="1705219200000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
+<div class="thumbnail">
+<p><a href="../../posts/2024-01-14-ambassador_gorecki-community_team/index.html" class="no-external"></a></p><a href="../../posts/2024-01-14-ambassador_gorecki-community_team/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-01-14-ambassador_gorecki-community_team/jan.png" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2024-01-14-ambassador_gorecki-community_team/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2024-01-14-ambassador_gorecki-community_team/index.html" class="no-external">Announcement: Jan Gorecki, data.table Ambassador</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2024-01-14-ambassador_gorecki-community_team/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
+announcements
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
+grant
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ambassadors'); return false;">
+ambassadors
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2024-01-14-ambassador_gorecki-community_team/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-01-14-ambassador_gorecki-community_team/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2024-01-14-ambassador_gorecki-community_team/index.html" class="no-external">
+<div class="listing-date">
+Jan 14, 2024
+</div>
+<div class="listing-author">
+Kelly Bodwin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="conferences" data-listing-date-sort="1700380800000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="581">
+<div class="thumbnail">
+<p><a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2023-11-19-LatinR_summary-toby_hocking/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external">Summary of LatinR conference</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('conferences'); return false;">
+conferences
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2023-11-19-LatinR_summary-toby_hocking/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external">
+<div class="listing-date">
+Nov 19, 2023
+</div>
+<div class="listing-author">
+Toby Dylan Hocking
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="announcements,grant,funding opportunity" data-listing-date-sort="1698822000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
+<div class="thumbnail">
+<p><a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external"></a></p><a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2023-11-01-travel_grant_announcement-community_team/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external">Announcement: The data.table Ambassadors Travel Grant</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
+announcements
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
+grant
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('funding opportunity'); return false;">
+funding opportunity
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2023-11-01-travel_grant_announcement-community_team/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external">
+<div class="listing-date">
+Nov 1, 2023
+</div>
+<div class="listing-author">
+Kelly Bodwin
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="announcements,grant,funding opportunity" data-listing-date-sort="1697526000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="664">
+<div class="thumbnail">
+<p><a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2023-10-17-translation_announcement-toby_hocking/translate.jpeg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external">Announcement: data.table translation projects</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
+announcements
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
+grant
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('funding opportunity'); return false;">
+funding opportunity
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2023-10-17-translation_announcement-toby_hocking/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external">
+<div class="listing-date">
+Oct 17, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="announcements,grant" data-listing-date-sort="1697353200000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="640">
+<div class="thumbnail">
+<p><a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external">
+<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2023-10-15-intro_to_grant-toby_hocking/sea_lions.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external">Welcome to the data.table ecosystem project!</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external">An NSF-POSE funded venture.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
+announcements
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
+grant
+</div>
+</div>
+<div class="listing-description">
+<a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2023-10-15-intro_to_grant-toby_hocking/index.html --></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external">
+<div class="listing-date">
+Oct 15, 2023
+</div>
+<div class="listing-author">
+Toby Hocking
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <category>announcements</category>
+  <category>grant</category>
+  <category>community</category>
+  <category>seal of approval</category>
+  <guid>https://rdatatable-community.github.io/The-Raft/posts/2024-07-31-seal_of_approval_announcement-community_team/</guid>
+  <pubDate>Wed, 31 Jul 2024 07:00:00 GMT</pubDate>
+  <media:content url="https://rdatatable-community.github.io/The-Raft/posts/2024-07-31-seal_of_approval_announcement-community_team/seal_of_approval.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
   <title>Announcement: Paola Corrales, data.table Ambassador</title>
   <dc:creator>Community Team</dc:creator>
   <link>https://rdatatable-community.github.io/The-Raft/posts/2024-06-09-ambassador_corrales-community_team/</link>
@@ -25600,979 +26550,6 @@ No matching items
   <guid>https://rdatatable-community.github.io/The-Raft/posts/2024-01-28-piping_data_tables-elio_campitelli/</guid>
   <pubDate>Sun, 28 Jan 2024 08:00:00 GMT</pubDate>
   <media:content url="https://rdatatable-community.github.io/The-Raft/posts/2024-01-28-piping_data_tables-elio_campitelli/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Announcement: Jan Gorecki, data.table Ambassador</title>
-  <dc:creator>Kelly Bodwin</dc:creator>
-  <link>https://rdatatable-community.github.io/The-Raft/posts/2024-01-14-ambassador_gorecki-community_team/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="please-join-me-in-congratulting-our-first-ever-data.table-ambassador-jan-gorecki" class="level2">
-<h2 class="anchored" data-anchor-id="please-join-me-in-congratulting-our-first-ever-data.table-ambassador-jan-gorecki">Please join me in congratulting our first-ever <strong>data.table Ambassador: Jan Gorecki</strong>!</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://media2.giphy.com/media/ctXgY5wQbzhHyShCnF/giphy.gif?cid=790b7611y919l9yrzx0l7pszuyqcufsq39eoegy1tthi1opa&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g" class="img-fluid figure-img"></p>
-<figcaption>A round of applause!</figcaption>
-</figure>
-</div>
-<p>Jan is a natural choice for an Ambassador, due to his many years of fantastic contribution to the <code>data.table</code> package. You can find his great work in open-source development at <a href="https://github.com/jangorecki">github.com/jangorecki</a>. Find him on Mastodon at <a href="https://fosstodon.org/@jangorecki">fosstodon.org/@jangorecki</a> to say congratulations, or chat about all things <code>data.table</code>.</p>
-</section>
-<section id="talks" class="level2">
-<h2 class="anchored" data-anchor-id="talks">Talks</h2>
-<p>As part of his Ambassador role, Jan will be giving three exciting talks this year:</p>
-<section id="rolling-statistics-and-moving-windows-in-edinburgh-on-january-26th-with-the-edinburgh-r-users-group." class="level3">
-<h3 class="anchored" data-anchor-id="rolling-statistics-and-moving-windows-in-edinburgh-on-january-26th-with-the-edinburgh-r-users-group."><a href="https://www.meetup.com/edinbr/events/298492818/">Rolling statistics and moving windows</a> in Edinburgh on <strong>January 26th</strong>, with the Edinburgh R Users group.</h3>
-<blockquote class="blockquote">
-<p>Rolling statistics are an interesting topic for optimizations, therefore in my talk I will use R language to present naive implementation, and the optimized implementation, on a simple case of rolling mean. Then I will move to data.table implementations of rolling statistics explaining possible optimizations in other functions, which are not that straightforward anymore, like min/max and, actually very complex, median. Finally benchmarks will be presented comparing data.table implementations to base R, pandas, polars, slider/dplyr, duckdb and spark.</p>
-</blockquote>
-</section>
-<section id="high-productivity-data-frame-operations-with-data.table-on-february-8th-in-sevilla-spain-with-the-sevilla-r-users-group" class="level3">
-<h3 class="anchored" data-anchor-id="high-productivity-data-frame-operations-with-data.table-on-february-8th-in-sevilla-spain-with-the-sevilla-r-users-group"><a href="https://www.meetup.com/sevilla-r-users/events/298628185/">High-productivity data frame operations with data.table</a> on <strong>February 8th</strong> in Sevilla, Spain with the Sevilla R Users group</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://secure.meetupstatic.com/photos/event/c/1/1/c/600_518569436.webp?w=750" class="img-fluid figure-img"></p>
-<figcaption>Talk with SevillaR</figcaption>
-</figure>
-</div>
-<p><a href="https://bit.ly/SevillaR_data-table">Register to watch online here</a></p>
-</section>
-<section id="the-spanish-r-conference-in-sevilla-spain.-date-and-topic-tbd" class="level3">
-<h3 class="anchored" data-anchor-id="the-spanish-r-conference-in-sevilla-spain.-date-and-topic-tbd">The Spanish R Conference in Sevilla, Spain. (Date and topic TBD)</h3>
-<p>We look forward to Jan’s excellent talks, and a forthcoming blog post right here on The Raft to share his experiences - and of course, his continued wonderful contributions to the <code>data.table</code> community. Thank you, Jan!</p>
-</section>
-</section>
-<section id="become-an-ambassador" class="level2">
-<h2 class="anchored" data-anchor-id="become-an-ambassador">Become an Ambassador</h2>
-<p>Do you have ideas for talks about <code>data.table</code>? Do you want to be part of this new community movement? <a href="https://forms.gle/7Nb7E5GweiYdi93o7">Apply now</a> for the <strong>data.table Ambassadors Grant</strong> to fund conference travel for presentations related to <code>data.table</code>. More details on the Ambassadors program <a href="https://rdatatable-community.github.io/The-Raft/posts/2023-11-01-travel_grant_announcement-community_team/">at this blog post</a>, and more details on the grant project itself are <a href="https://rdatatable-community.github.io/The-Raft/posts/2023-10-15-intro_to_grant-toby_hocking/">here</a>.</p>
-<p>Questions? Email <a href="mailto:r.data.table@gmail.com">r.data.table@gmail.com</a> with any and all questions!</p>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="developer,guest post,performance" data-listing-date-sort="1736755200000" data-listing-file-modified-sort="1739058992142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="39" data-listing-word-count-sort="7775">
-<div class="thumbnail">
-<p><a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external"></a></p><a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2025-01-13-non-api-use/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external">Use of non-API entry points in <code>data.table</code></a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
-developer
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('guest post'); return false;">
-guest post
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('performance'); return false;">
-performance
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2025-01-13-non-api-use/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2025-01-13-non-api-use/index.html" class="no-external">
-<div class="listing-date">
-Jan 13, 2025
-</div>
-<div class="listing-author">
-Ivan Krylov
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="tutorials,community" data-listing-date-sort="1733558400000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="326">
-<div class="thumbnail">
-<p><a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external"></a></p><a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-12-07-advent_of_code-kelly_bodwin/aoc2.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external">Advent of Code with <code>data.table</code>: Week One</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
-tutorials
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
-community
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-12-07-advent_of_code-kelly_bodwin/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-12-07-advent_of_code-kelly_bodwin/index.html" class="no-external">
-<div class="listing-date">
-Dec 7, 2024
-</div>
-<div class="listing-author">
-Kelly Bodwin
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="tips,tutorials,developer,benchmarks" data-listing-date-sort="1729148400000" data-listing-file-modified-sort="1739058992142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4191">
-<div class="thumbnail">
-<p><a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-10-17-duckdb_polars_reshape-toby_hocking/duckdb.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external">Comparing <code>data.table</code> reshape to <code>duckdb</code> and <code>polars</code></a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tips'); return false;">
-tips
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
-tutorials
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
-developer
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('benchmarks'); return false;">
-benchmarks
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-10-17-duckdb_polars_reshape-toby_hocking/index.html" class="no-external">
-<div class="listing-date">
-Oct 17, 2024
-</div>
-<div class="listing-author">
-Toby Dylan Hocking
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="performance,testing,developer" data-listing-date-sort="1728543600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2217">
-<div class="thumbnail">
-<p><a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external"></a></p><a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-10-10-Performance-Doris_Amoakohene/atime.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external">Visualizing performance regression of <code>data.table</code> with <code>atime</code></a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('performance'); return false;">
-performance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('testing'); return false;">
-testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
-developer
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-10-10-Performance-Doris_Amoakohene/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-10-10-Performance-Doris_Amoakohene/index.html" class="no-external">
-<div class="listing-date">
-Oct 10, 2024
-</div>
-<div class="listing-author">
-Doris Afriyie Amoakohene
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="seal of approval,application package" data-listing-date-sort="1727766000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="381">
-<div class="thumbnail">
-<p><a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external"></a></p><a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-10-01-seal_of_approval-mlr3/hex_approved.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external">Seal of Approval: mlr3</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
-seal of approval
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('application package'); return false;">
-application package
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-10-01-seal_of_approval-mlr3/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-10-01-seal_of_approval-mlr3/index.html" class="no-external">
-<div class="listing-date">
-Oct 1, 2024
-</div>
-<div class="listing-author">
-Maximilian Mücke
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="seal of approval,partner package" data-listing-date-sort="1726902000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="981">
-<div class="thumbnail">
-<p><a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external"></a></p><a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-09-21-seal_of_approval-collapse/hex_approved.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external">Seal of Approval: collapse</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
-seal of approval
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('partner package'); return false;">
-partner package
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-09-21-seal_of_approval-collapse/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-09-21-seal_of_approval-collapse/index.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2024
-</div>
-<div class="listing-author">
-Sebastian Krantz
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="announcements,grant,translation" data-listing-date-sort="1724137200000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
-<div class="thumbnail">
-<p><a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external"></a></p><a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-08-20-translation_projects-community_team/languages.jpeg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external">Newly awarded translation projects</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
-announcements
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
-grant
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('translation'); return false;">
-translation
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-08-20-translation_projects-community_team/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-08-20-translation_projects-community_team/index.html" class="no-external">
-<div class="listing-date">
-Aug 20, 2024
-</div>
-<div class="listing-author">
-Toby Dylan Hocking
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="seal of approval,bridge package" data-listing-date-sort="1722495600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
-<div class="thumbnail">
-<p><a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external"></a></p><a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-08-01-seal_of_approval-dtplyr/hex_approved.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external">Seal of Approval: dtplyr</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
-seal of approval
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bridge package'); return false;">
-bridge package
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-08-01-seal_of_approval-dtplyr/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-08-01-seal_of_approval-dtplyr/index.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2024
-</div>
-<div class="listing-author">
-Kelly Bodwin
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="seal of approval,extension package" data-listing-date-sort="1722495600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="698">
-<div class="thumbnail">
-<p><a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external"></a></p><a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-08-01-seal_of_approval-nc/hex_approved.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external">Seal of Approval: nc</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
-seal of approval
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('extension package'); return false;">
-extension package
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-08-01-seal_of_approval-nc/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-08-01-seal_of_approval-nc/index.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2024
-</div>
-<div class="listing-author">
-Toby Dylan Hocking
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="seal of approval,bridge package" data-listing-date-sort="1722495600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
-<div class="thumbnail">
-<p><a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external"></a></p><a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-08-01-seal_of_approval-tidyfast/hex_approved.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external">Seal of Approval: tidyfast</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
-seal of approval
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bridge package'); return false;">
-bridge package
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-08-01-seal_of_approval-tidyfast/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-08-01-seal_of_approval-tidyfast/index.html" class="no-external">
-<div class="listing-date">
-Aug 1, 2024
-</div>
-<div class="listing-author">
-Tyson S. Barrett
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="announcements,grant,community,seal of approval" data-listing-date-sort="1722409200000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
-<div class="thumbnail">
-<p><a href="../../posts/2024-07-31-seal_of_approval_announcement-community_team/index.html" class="no-external"></a></p><a href="../../posts/2024-07-31-seal_of_approval_announcement-community_team/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-07-31-seal_of_approval_announcement-community_team/seal_of_approval.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-07-31-seal_of_approval_announcement-community_team/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-07-31-seal_of_approval_announcement-community_team/index.html" class="no-external">Announcement: The ‘Seal of Approval’</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-07-31-seal_of_approval_announcement-community_team/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
-announcements
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
-grant
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
-community
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('seal of approval'); return false;">
-seal of approval
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-07-31-seal_of_approval_announcement-community_team/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-07-31-seal_of_approval_announcement-community_team/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-07-31-seal_of_approval_announcement-community_team/index.html" class="no-external">
-<div class="listing-date">
-Jul 31, 2024
-</div>
-<div class="listing-author">
-Kelly Bodwin
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="announcements,grant,ambassadors,travel" data-listing-date-sort="1718175600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
-<div class="thumbnail">
-<p><a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external"></a></p><a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-06-09-ambassador_corrales-community_team/Paola_Corrales.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external">Announcement: Paola Corrales, data.table Ambassador</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
-announcements
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
-grant
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ambassadors'); return false;">
-ambassadors
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('travel'); return false;">
-travel
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-06-09-ambassador_corrales-community_team/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-06-09-ambassador_corrales-community_team/index.html" class="no-external">
-<div class="listing-date">
-Jun 12, 2024
-</div>
-<div class="listing-author">
-Community Team
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-categories="opinion" data-listing-date-sort="1717484400000" data-listing-file-modified-sort="1739058992141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1405">
-<div class="thumbnail">
-<p><a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external"></a></p><a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-05-20-opinion-kelly_bodwin/paths.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external">Two Roads Diverged</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('opinion'); return false;">
-opinion
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-05-20-opinion-kelly_bodwin/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-05-20-opinion-kelly_bodwin/index.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2024
-</div>
-<div class="listing-author">
-Kelly Bodwin
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-categories="grant,testing,developer" data-listing-date-sort="1710057600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1527">
-<div class="thumbnail">
-<p><a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-03-10-testing_plan-toby_hocking/code_testing.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external">Testing infrastructure for data.table</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
-grant
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('testing'); return false;">
-testing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
-developer
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-03-10-testing_plan-toby_hocking/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-03-10-testing_plan-toby_hocking/index.html" class="no-external">
-<div class="listing-date">
-Mar 10, 2024
-</div>
-<div class="listing-author">
-Toby Hocking
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-categories="community,grant" data-listing-date-sort="1709712000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3396">
-<div class="thumbnail">
-<p><a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external"></a></p><a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-03-06-interviews-anirban_chetia/index.jpeg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external">Community interviews about data.table</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
-community
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
-grant
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-03-06-interviews-anirban_chetia/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-03-06-interviews-anirban_chetia/index.html" class="no-external">
-<div class="listing-date">
-Mar 6, 2024
-</div>
-<div class="listing-author">
-Anirban Chetia
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="15" data-categories="community,guest post,governance" data-listing-date-sort="1708848000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1190">
-<div class="thumbnail">
-<p><a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external"></a></p><a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-02-25-survey_2023-aljaz_sluga/usage_frequency.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external">Results of the 2023 survey</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
-community
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('guest post'); return false;">
-guest post
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('governance'); return false;">
-governance
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-02-25-survey_2023-aljaz_sluga/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-02-25-survey_2023-aljaz_sluga/index.html" class="no-external">
-<div class="listing-date">
-Feb 25, 2024
-</div>
-<div class="listing-author">
-Aljaž Sluga
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="16" data-categories="tips,tutorials,developer" data-listing-date-sort="1708243200000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="918">
-<div class="thumbnail">
-<p><a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-02-18-dt_particularities-toby_hocking/copy_on_modify.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external">Column assignment and reference semantics in data.table</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tips'); return false;">
-tips
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
-tutorials
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('developer'); return false;">
-developer
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-02-18-dt_particularities-toby_hocking/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-02-18-dt_particularities-toby_hocking/index.html" class="no-external">
-<div class="listing-date">
-Feb 18, 2024
-</div>
-<div class="listing-author">
-Toby Hocking
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="17" data-categories="tips,tutorials,documentation" data-listing-date-sort="1707120000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="914">
-<div class="thumbnail">
-<p><a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external"></a></p><a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-02-05-tips_tricks_1-tyson_barrett/brackets.png" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external">The Benefits of <code>data.table</code> Syntax</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tips'); return false;">
-tips
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
-tutorials
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('documentation'); return false;">
-documentation
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-02-05-tips_tricks_1-tyson_barrett/index.html" class="no-external">
-<div class="listing-date">
-Feb 5, 2024
-</div>
-<div class="listing-author">
-Tyson Barrett
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="18" data-categories="governance,releases" data-listing-date-sort="1706601600000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="696">
-<div class="thumbnail">
-<p><a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-01-30-new_governance_new_release-toby_hocking/New-Release.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external">New governance, release with new features</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('governance'); return false;">
-governance
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('releases'); return false;">
-releases
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-01-30-new_governance_new_release-toby_hocking/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-01-30-new_governance_new_release-toby_hocking/index.html" class="no-external">
-<div class="listing-date">
-Jan 30, 2024
-</div>
-<div class="listing-author">
-Toby Dylan Hocking
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="19" data-categories="tips,tutorials,documentation,guest post" data-listing-date-sort="1706428800000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="988">
-<div class="thumbnail">
-<p><a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external"></a></p><a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2024-01-28-piping_data_tables-elio_campitelli/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external">Piping data.tables</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tips'); return false;">
-tips
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('tutorials'); return false;">
-tutorials
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('documentation'); return false;">
-documentation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('guest post'); return false;">
-guest post
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2024-01-28-piping_data_tables-elio_campitelli/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2024-01-28-piping_data_tables-elio_campitelli/index.html" class="no-external">
-<div class="listing-date">
-Jan 28, 2024
-</div>
-<div class="listing-author">
-Elio Campitelli
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="20" data-categories="conferences" data-listing-date-sort="1700380800000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="581">
-<div class="thumbnail">
-<p><a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2023-11-19-LatinR_summary-toby_hocking/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external">Summary of LatinR conference</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('conferences'); return false;">
-conferences
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2023-11-19-LatinR_summary-toby_hocking/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2023-11-19-LatinR_summary-toby_hocking/index.html" class="no-external">
-<div class="listing-date">
-Nov 19, 2023
-</div>
-<div class="listing-author">
-Toby Dylan Hocking
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="21" data-categories="announcements,grant,funding opportunity" data-listing-date-sort="1698822000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="428">
-<div class="thumbnail">
-<p><a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external"></a></p><a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2023-11-01-travel_grant_announcement-community_team/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external">Announcement: The data.table Ambassadors Travel Grant</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
-announcements
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
-grant
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('funding opportunity'); return false;">
-funding opportunity
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2023-11-01-travel_grant_announcement-community_team/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2023-11-01-travel_grant_announcement-community_team/index.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2023
-</div>
-<div class="listing-author">
-Kelly Bodwin
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="22" data-categories="announcements,grant,funding opportunity" data-listing-date-sort="1697526000000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="664">
-<div class="thumbnail">
-<p><a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2023-10-17-translation_announcement-toby_hocking/translate.jpeg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external">Announcement: data.table translation projects</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
-announcements
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
-grant
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('funding opportunity'); return false;">
-funding opportunity
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2023-10-17-translation_announcement-toby_hocking/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2023-10-17-translation_announcement-toby_hocking/index.html" class="no-external">
-<div class="listing-date">
-Oct 17, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="23" data-categories="announcements,grant" data-listing-date-sort="1697353200000" data-listing-file-modified-sort="1733789473000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="640">
-<div class="thumbnail">
-<p><a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external"></a></p><a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external">
-<p><img loading="lazy" src="https://rdatatable-community.github.io/The-Raft/posts/2023-10-15-intro_to_grant-toby_hocking/sea_lions.jpg" class="thumbnail-image"></p>
-</a><p><a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external">Welcome to the data.table ecosystem project!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external">An NSF-POSE funded venture.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('announcements'); return false;">
-announcements
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('grant'); return false;">
-grant
-</div>
-</div>
-<div class="listing-description">
-<a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external"><!-- desc(5A0113B34292)[max=175]:posts/2023-10-15-intro_to_grant-toby_hocking/index.html --></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../../posts/2023-10-15-intro_to_grant-toby_hocking/index.html" class="no-external">
-<div class="listing-date">
-Oct 15, 2023
-</div>
-<div class="listing-author">
-Toby Hocking
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div> ]]></description>
-  <category>announcements</category>
-  <category>grant</category>
-  <category>ambassadors</category>
-  <guid>https://rdatatable-community.github.io/The-Raft/posts/2024-01-14-ambassador_gorecki-community_team/</guid>
-  <pubDate>Sun, 14 Jan 2024 08:00:00 GMT</pubDate>
-  <media:content url="https://rdatatable-community.github.io/The-Raft/posts/2024-01-14-ambassador_gorecki-community_team/jan.png" medium="image" type="image/png" height="126" width="126"/>
 </item>
 </channel>
 </rss>
